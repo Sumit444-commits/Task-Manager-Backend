@@ -1,0 +1,22 @@
+# --- Root Level ---
+.env
+node_modules/
+package-lock.json
+.DS_Store
+dist/
+build/
+
+# --- Backend Specific ---
+logs/
+*.log
+npm-debug.log*
+uploads
+
+# --- IDE and Misc ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
